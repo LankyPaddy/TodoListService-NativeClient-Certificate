@@ -81,7 +81,7 @@ namespace TodoListClient
             X509Certificate2 cert = ReadCertificateFromStore(certName);
             if (cert == null)
             {
-                Console.WriteLine($"Cannot find active certificate '{certName}' in certificates for current user. Please check configuration");
+                MessageBox.Show("Cannot find active certificate '{certName}' in certificates for current user. Please check configuration");
                 return;
             }
 
@@ -224,6 +224,11 @@ namespace TodoListClient
 
             } while ((retry == true) && (retryCount < 3));
             return result;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            GetTodoList();
         }
     }
 }

@@ -2,7 +2,7 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <NameOfLastUsedPublishProfile>todolistservice-jerpritchettgmail - Web Deploy1</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>todolistservice-jerpritchettgmail - Web Deploy</NameOfLastUsedPublishProfile>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44321</IISExpressSSLPort>
